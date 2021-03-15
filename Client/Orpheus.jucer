@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="fiR2WW" name="Orpheus" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              companyName="tynitus" pluginAUIsSandboxSafe="1" pluginVST3Category="Fx,Network,NoOfflineProcess"
+              cppLanguageStandard="latest" pluginFormats="buildStandalone,buildVST,buildVST3">
+  <MAINGROUP id="Mjpwkd" name="Orpheus">
+    <GROUP id="{753998DF-B0A7-882B-B499-1EEB68378C48}" name="Source">
+      <GROUP id="{81DB0DA9-2D77-89BF-85AF-E02899781DAD}" name="Utility">
+        <FILE id="OrBH81" name="orpheus_delay_buffer.h" compile="0" resource="0"
+              file="Source/orpheus_delay_buffer.h"/>
+        <FILE id="A8aPS0" name="orpheus_pipe_buffer.cpp" compile="1" resource="0"
+              file="Source/orpheus_pipe_buffer.cpp"/>
+        <FILE id="qVjLL4" name="orpheus_pipe_buffer.h" compile="0" resource="0"
+              file="Source/orpheus_pipe_buffer.h"/>
+        <FILE id="ccHVr5" name="orpheus_log.cpp" compile="1" resource="0" file="Source/orpheus_log.cpp"/>
+        <FILE id="BUvxHs" name="orpheus_log.h" compile="0" resource="0" file="Source/orpheus_log.h"/>
+        <FILE id="oSbD4C" name="orpheus_logger_textfield.cpp" compile="1" resource="0"
+              file="Source/orpheus_logger_textfield.cpp"/>
+        <FILE id="cMnAyu" name="orpheus_logger_textfield.h" compile="0" resource="0"
+              file="Source/orpheus_logger_textfield.h"/>
+        <FILE id="hERnQI" name="sandbox.h" compile="0" resource="0" file="Source/sandbox.h"/>
+      </GROUP>
+      <GROUP id="{011F8737-E1FD-13D2-B1AE-0DAFDE99D282}" name="GUI">
+        <FILE id="yDMmF9" name="orpheus_DataTrackerTable.cpp" compile="1" resource="0"
+              file="Source/orpheus_DataTrackerTable.cpp"/>
+        <FILE id="XbTcDa" name="orpheus_GainMeter.h" compile="0" resource="0"
+              file="Source/orpheus_GainMeter.h"/>
+        <FILE id="Ze9zLt" name="orpheus_DataTrackerTable.h" compile="0" resource="0"
+              file="Source/orpheus_DataTrackerTable.h"/>
+        <FILE id="q0PmLM" name="orpheus_GuiComponents.cpp" compile="1" resource="0"
+              file="Source/orpheus_GuiComponents.cpp"/>
+        <FILE id="qp6gGG" name="orpheus_GuiComponents.h" compile="0" resource="0"
+              file="Source/orpheus_GuiComponents.h"/>
+        <FILE id="Kx3iuB" name="orpheus_ConsoleWindow.cpp" compile="1" resource="0"
+              file="Source/orpheus_ConsoleWindow.cpp"/>
+        <FILE id="Lb56a8" name="orpheus_ConsoleWindow.h" compile="0" resource="0"
+              file="Source/orpheus_ConsoleWindow.h"/>
+        <FILE id="weSP6k" name="orpheus_DataTracker.cpp" compile="1" resource="0"
+              file="Source/orpheus_DataTracker.cpp"/>
+        <FILE id="ArgSVG" name="orpheus_DataTracker.h" compile="0" resource="0"
+              file="Source/orpheus_DataTracker.h"/>
+        <FILE id="GOo6Dv" name="orpheus_GainMeter.cpp" compile="1" resource="0"
+              file="Source/orpheus_GainMeter.cpp"/>
+      </GROUP>
+      <GROUP id="{88CB8683-394A-201D-FBC0-55F19827634B}" name="net">
+        <FILE id="MTBKxy" name="orpheus_connection.cpp" compile="1" resource="0"
+              file="Source/orpheus_connection.cpp"/>
+        <FILE id="w375ql" name="orpheus_stream_data.cpp" compile="1" resource="0"
+              file="Source/orpheus_stream_data.cpp"/>
+        <FILE id="u7D36f" name="orpheus_stream_data.h" compile="0" resource="0"
+              file="Source/orpheus_stream_data.h"/>
+        <FILE id="ftuqad" name="orpheus_connection.h" compile="0" resource="0"
+              file="Source/orpheus_connection.h"/>
+        <FILE id="VrEloV" name="orpheus_guest_connection.cpp" compile="1" resource="0"
+              file="Source/orpheus_guest_connection.cpp"/>
+        <FILE id="ZSuFQf" name="orpheus_guest_connection.h" compile="0" resource="0"
+              file="Source/orpheus_guest_connection.h"/>
+        <FILE id="enoZBW" name="orpheus_host_connection.cpp" compile="1" resource="0"
+              file="Source/orpheus_host_connection.cpp"/>
+        <FILE id="ELrAiv" name="orpheus_host_connection.h" compile="0" resource="0"
+              file="Source/orpheus_host_connection.h"/>
+      </GROUP>
+      <GROUP id="{322F86F8-E85E-31AD-0388-B270DCBA7EFA}" name="StreamHandlers">
+        <FILE id="EyImJw" name="orpheus_stream_guest_handler.cpp" compile="1"
+              resource="0" file="Source/orpheus_stream_guest_handler.cpp"/>
+        <FILE id="G3U9Bc" name="orpheus_stream_guest_handler.h" compile="0"
+              resource="0" file="Source/orpheus_stream_guest_handler.h"/>
+        <FILE id="qRFESR" name="orpheus_stream_handler.cpp" compile="1" resource="0"
+              file="Source/orpheus_stream_handler.cpp"/>
+        <FILE id="FjWBwT" name="orpheus_stream_handler.h" compile="0" resource="0"
+              file="Source/orpheus_stream_handler.h"/>
+        <FILE id="MnBDHs" name="orpheus_stream_host_handler.cpp" compile="1"
+              resource="0" file="Source/orpheus_stream_host_handler.cpp"/>
+        <FILE id="qeGZox" name="orpheus_stream_host_handler.h" compile="0"
+              resource="0" file="Source/orpheus_stream_host_handler.h"/>
+      </GROUP>
+      <FILE id="IX19PV" name="orpheus_config.h" compile="0" resource="0"
+            file="Source/orpheus_config.h"/>
+      <FILE id="B8UEPe" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="mnt9Ax" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="QIjXdh" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="TvEnH4" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Orpheus"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Orpheus"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Orpheus"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Orpheus"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
