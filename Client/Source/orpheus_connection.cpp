@@ -17,6 +17,9 @@ orpheus::AudioStreamConnection::~AudioStreamConnection()
     closeConnection();
 }
 
+/*
+* Streams a chunk of audio data if enough data is added to the connection via add_data().
+*/
 void orpheus::AudioStreamConnection::streamCache()
 {
 	if ((cache_data_added.getSize() / chunkSize) <= chunksToStream)
@@ -49,6 +52,10 @@ void orpheus::AudioStreamConnection::send_data(stream_data& strdata)
 	ORPH_TRACKDATA("Total streamed (MB)", _totalDataSend_mb);
 }
 
+/*
+* Sends a 8-byte integer code. Use this for network protocol communication.
+* @param code The value to send.
+*/
 void orpheus::AudioStreamConnection::sendMessageCode(juce::int64 code)
 {
 	juce::MemoryBlock mb;
@@ -59,6 +66,11 @@ void orpheus::AudioStreamConnection::sendMessageCode(juce::int64 code)
 	ORPHLOG("Messagecode send: " + std::to_string(code));
 }
 
+/*
+* Tries to establish and verify a connection to an open OrpheusServer.
+* @param address The address of the server
+* @param port The port used by the server
+*/
 bool orpheus::AudioStreamConnection::connect(const juce::String& address, unsigned int port)
 {
 	bool success = connectToSocket(address, port, 2000);
@@ -74,6 +86,11 @@ bool orpheus::AudioStreamConnection::connect(const juce::String& address, unsign
 	return _approvedByServer == 1;
 }
 
+/*
+* Returns a block of samples which the connection recieved.
+* @param numSamples Expected size of the audio buffer
+* @return The next buffered samples. Returns a nullptr if there isn't enough data available
+*/
 std::shared_ptr<juce::AudioBuffer<float>> orpheus::AudioStreamConnection::getNextSamples(int numSamples)
 {	
 	if (_minimumBufferSizeReached == false) 
