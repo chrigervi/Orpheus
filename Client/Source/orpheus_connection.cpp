@@ -14,7 +14,7 @@ orpheus::AudioStreamConnection::AudioStreamConnection(juce::int64 netID, float s
 orpheus::AudioStreamConnection::~AudioStreamConnection()
 {
 	_asyncSender.stopThread(2000);
-    closeConnection();
+    	closeConnection();
 }
 
 /*
@@ -136,7 +136,7 @@ void orpheus::AudioStreamConnection::closeConnection()
 	
 	//the connection could already be closed
 	try 
-	{
+	{	
 		if (isReadyToStream()) sendMessage(mb);
 		this->disconnect();
 	}
@@ -156,39 +156,45 @@ void orpheus::AudioStreamConnection::connectionLost() {
 
 void orpheus::AudioStreamConnection::messageReceived(const juce::MemoryBlock& message)
 {
-	//ORPHLOG("recieved " + std::to_string(message.getSize()) + " bytes");
 	juce::ScopedLock lock(critical_section);
-
+	
+	// The smallest possible message size in the ORPHEUS protocol is a 8-byte integer.
 	if (message.getSize() < 8)
 	{
 		ORPHLOG("Message smaller than 8 bytes is ignored");
 		return;
 	}
-
+	
+	// get the message code
 	juce::int64 messageHeader = *(juce::int64*)message.getData();
 
 	switch (messageHeader)
 	{
 	case ORPHEUS_CONNECTION_APPROVED:
+		// The server verified the connection.
 		_approvedByServer = 1;
 		ORPHLOG("Connection approved");
 		break;
 	case ORPHEUS_CONNECTION_REFUSED:
+		// The Server refused the connection.
 		_approvedByServer = 0;
 		ORPHLOG("Connection refused");
 		closeConnection();
 		break;
 	case ORPHEUS_START_STREAM:
+		// The Servers expects an audio stream
 		readyToStream = true;
 		_asyncSender.startThread();
 		ORPHLOG("Ready to stream!");
 		break;
 	case ORPHEUS_STOP_STREAM:
+		// The audio stream should be stopped
 		readyToStream = false;
 		_asyncSender.stopThread(2000);
 		closeConnection();
 		break;
 	case ORPHEUS_STREAM_PACKET:
+		// A packet with valid audio data is recieved	
 		//Fetch the packet
 		const byte* strdata_pntr = (const byte*)message.getData();
 		size_t strdata_size = message.getSize();
@@ -215,9 +221,11 @@ void orpheus::AudioStreamConnection::messageReceived(const juce::MemoryBlock& me
 		{
 			_minimumBufferSizeReached = true;
 		}
-
+		
+		// Call special packet handler of derived class.
 		onStreamPacketRecieved(strdataDecompr);
-
+		
+		// Track data
 		_totalDataRecieved_mb += float(strdata_size) / (1024.0f * 1024.0f);
 		ORPH_TRACKDATA("Total recieved (MB)", _totalDataRecieved_mb);
 		ORPH_TRACKDATA("Packet-Size (KB)", float(strdata_size) / 1024.0f);
@@ -244,13 +252,13 @@ void orpheus::AudioStreamConnection::_AsyncSender::run()
 				juce::ScopedLock lock(connection->critical_section);
                 
 				buffer = connection->cache_data_added.getNextChunk(connection->chunkSize);
-                connection->chunksToStream -= 1;
+                		connection->chunksToStream -= 1;
 			}
 
 			auto compressed = stream_data::compressAudioData(*buffer, connection->sample_rate);
 			connection->send_data(compressed->getData(), compressed->getSize());
 		}
-
+		// Cuts down cpu usage
 		sleep(20);
 	}
 }
