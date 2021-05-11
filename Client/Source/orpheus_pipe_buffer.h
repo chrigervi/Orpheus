@@ -9,8 +9,11 @@
 
 namespace orpheus {
 
+// Size of the allocated sample buffers in bytes
 #define pipe_buffer_bsize 1024 * 4
+// Amount of channels to use
 #define pipe_buffer_channels 2
+// one chunk of samples (floats)
 #define pipe_array std::array<float[pipe_buffer_bsize], pipe_buffer_channels>
 
 	class PipeBuffer {
