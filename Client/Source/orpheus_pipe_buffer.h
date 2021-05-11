@@ -16,10 +16,9 @@ namespace orpheus {
 	class PipeBuffer {
 	public:
 		void add_data(const juce::AudioBuffer<float>& buffer);
-        void add_data(const float* buffer, size_t size);
-
-		std::shared_ptr<juce::AudioBuffer<float>> getNextChunk(int numSamples);
+        	void add_data(const float* buffer, size_t size);
 		
+		std::shared_ptr<juce::AudioBuffer<float>> getNextChunk(int numSamples);
 		size_t getNextChunkRaw(int numSamples, float*& data_ptr);
 
 		static size_t convertToFloatSequence(const juce::AudioBuffer<float>& buffer, float*& data_ptr);
@@ -27,9 +26,9 @@ namespace orpheus {
 		size_t getSize() const;
 
 	protected:
-        void _add_data(const float* buffer, size_t size, int sample_start = 0);
-        std::shared_ptr<juce::AudioBuffer<float>> _getNextChunk_flat(unsigned int numSamples);
-        std::shared_ptr<juce::AudioBuffer<float>> _getNextChunk(int numSamples);
+        	void _add_data(const float* buffer, size_t size, int sample_start = 0);
+        	std::shared_ptr<juce::AudioBuffer<float>> _getNextChunk_flat(unsigned int numSamples);
+        	std::shared_ptr<juce::AudioBuffer<float>> _getNextChunk(int numSamples);
         
 		std::list<pipe_array> data;
 		int chunk_write_position = 0;
@@ -37,5 +36,4 @@ namespace orpheus {
 
 		juce::CriticalSection lock;
 	};
-//#undef pipe_buffer_bsize
 }
