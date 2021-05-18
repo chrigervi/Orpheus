@@ -7,7 +7,7 @@
 namespace orpheus {
 	typedef char byte;
 
-#define ORPHEUS_AUDIOSTREAM_BSIZE (44100 / 1)
+#define ORPHEUS_AUDIOSTREAM_BSIZE 44100
 #define ORPHEUS_RECDATA_BUFFERS (ORPHEUS_AUDIOSTREAM_BSIZE * 2)
 
 #define ORPHEUS_AUDIOCOMPRESSION_BITS_PER_SAMPLE 32
@@ -27,10 +27,8 @@ namespace orpheus {
 
 //STYLE
 #define ORPHEUS_REPAINT_TIME 100
-
 #define ORPHEUS_EDITOR_ASPECT_RATIO (4.0f / 4.0f)
 #define ORPHEUS_EDITOR_WIDTH 500
-
 //purple theme
 #define ORPHEUS_BG_COLOR (juce::Colour(79, 81, 140))
 #define ORPHEUS_BG_DARK_COLOR (juce::Colour(44, 42, 74))
