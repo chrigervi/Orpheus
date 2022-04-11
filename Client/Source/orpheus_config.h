@@ -4,7 +4,7 @@
 * This file is part of "orpheus".
 *
 * Within this file, basic constants and parameters for the Orpheus Application are defined.
-* Changing these constants will manipulate Orpheus' appearence / functionality.
+* Changing these constants will manipulate Orpheus' appearence and / or functionality.
 */
 
 #pragma once
@@ -39,30 +39,30 @@ typedef char byte;
 
 /** Constants used within the Oprheus network protocol */
 /// Package starter for approving incoming client connections (Server --> CLient)
-#define ORPHEUS_CONNECTION_APPROVED		6868927612724466250
+#define ORPHEUS_CONNECTION_APPROVED 6868927612724466250
 
 /// Package starter for refusing incoming client connections (Server --> Client)
-#define ORPHEUS_CONNECTION_REFUSED		6868927612724466251
+#define ORPHEUS_CONNECTION_REFUSED 6868927612724466251
 
 /// Package starter to determine the client's role as a GUEST within a Oprheus session (Client --> Server)
-#define ORPHEUS_CONNECTION_TYPE_GUEST		6868927612724466252
+#define ORPHEUS_CONNECTION_TYPE_GUEST 6868927612724466252
 
 /// Package starter to determine the client's role as a HOST within a Oprheus session (Client --> Server)
-#define ORPHEUS_CONNECTION_TYPE_HOST		6868927612724466253
+#define ORPHEUS_CONNECTION_TYPE_HOST 6868927612724466253
 
 /// Package starter to initiate the audio stream (Server --> Client)
-#define ORPHEUS_START_STREAM			6868927612724466254
+#define ORPHEUS_START_STREAM 6868927612724466254
 
 /// Package starter to stop the audio stream (Server --> Client)
-#define ORPHEUS_STOP_STREAM			6868927612724466255
+#define ORPHEUS_STOP_STREAM 6868927612724466255
 
 /// Package starter to mark a packet containing streamed audio data (Client --> Server --> CLient)
-#define ORPHEUS_STREAM_PACKET			6868927612724466256
+#define ORPHEUS_STREAM_PACKET 6868927612724466256
 /* ============================================================= */
 
 
 
-/** Constants defining the Oprheus GUI style and appearence */
+/** Constants defining the Orpheus GUI style and appearence */
 /// Time between redrawing the GUI (in ms)
 #define ORPHEUS_REPAINT_TIME 100
 

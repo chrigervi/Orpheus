@@ -1,5 +1,12 @@
 /* Copyright (c) 2021, Christian Hertel */
 
+/**
+* This file contains the definition of OrpheusAudioProcessorEditor.
+*
+* This class implements juce::AudioProcessorEditor and manages the GUI of the Audio-Plugin.
+*/
+
+
 #pragma once
 
 #include <JuceHeader.h>

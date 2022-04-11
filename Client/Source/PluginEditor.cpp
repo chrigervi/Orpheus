@@ -1,5 +1,9 @@
 /* Copyright (c) 2021, Christian Hertel */
 
+/**
+* This file contains the implementation of OrpheusAudioProcessorEditor.
+*/
+
 #include "PluginProcessor.h"
 #include "PluginEditor.h"
 
@@ -13,11 +17,11 @@ OrpheusAudioProcessorEditor::OrpheusAudioProcessorEditor(OrpheusAudioProcessor& 
 {
     // Make sure that before the constructor has finished, you've set the
     // editor's size to whatever you need it to be.
-    
+
     ORPHLOG("Load UI");
 
     _dataTracker = new orpheus::DataTrackerTable(orpheus::DataTracker::getGlobalTracker());
-    
+
     setSize(ORPHEUS_EDITOR_WIDTH, (1.0f / ORPHEUS_EDITOR_ASPECT_RATIO) * ORPHEUS_EDITOR_WIDTH);
     audioProcessor.addActionListener(this);
 
@@ -52,7 +56,7 @@ OrpheusAudioProcessorEditor::OrpheusAudioProcessorEditor(OrpheusAudioProcessor& 
     // init general information panel
     panelGeneralInfo.addAndMakeVisible(label_ip);
     panelGeneralInfo.addAndMakeVisible(text_ip);
-    
+
     label_ip.setText("Server-IP:", juce::NotificationType::sendNotificationSync);
     //label_ip.setColour(juce::Label::ColourIds::outlineColourId, ORPHEUS_BG_DARK_COLOR);
     text_ip.setText("localhost:17995");
@@ -130,7 +134,7 @@ void OrpheusAudioProcessorEditor::resized()
     float marginX = 0.02f;
     float marginY = 0.02f;
     const int panelWidth = relw(1 - 2 * marginX);
-    
+
     panelButtons.setBounds(relw(marginX), relh(marginY), panelWidth, relh(0.25));
     panelGeneralInfo.setBounds(relw(marginX), panelButtons.getBottom() + relh(marginY), panelWidth, relh(0.1));
     juce::Rectangle hostGuestPanelBounds(relw(marginX), panelGeneralInfo.getBottom() + relh(marginY), panelWidth, relh(0.35));
@@ -194,7 +198,7 @@ void OrpheusAudioProcessorEditor::actionListenerCallback(const juce::String& msg
     else if (msg.compare("STREAMHANDLER_INIT_SUCCESS") == 0)
     {
         _showLoadingScreen = false;
-        
+
         buttonHost.setEnabled(false);
         buttonGuest.setEnabled(false);
         buttonStart.setEnabled(false);
