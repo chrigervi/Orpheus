@@ -1,15 +1,33 @@
-#pragma once
+/** (c) Christian Hertel 2022 */
 
+/**
+* This file contains the definition and the implementation
+* of orpheus::ServerConnection and orpheus::Server.
+* In order to start an Orpheus session both Host-CLient and Guest-Client
+* need to have a valid connection to the same Orpheus Server instance.
+*/
+
+#pragma once
 #include "JuceHeader.h"
 #include <vector>
 
-#define ORPHEUS_CONNECTION_APPROVED		6868927612724466250
-#define ORPHEUS_CONNECTION_REFUSED		6868927612724466251
-#define ORPHEUS_CONNECTION_TYPE_GUEST		6868927612724466252
-#define ORPHEUS_CONNECTION_TYPE_HOST		6868927612724466253
-#define ORPHEUS_START_STREAM			6868927612724466254
-#define ORPHEUS_STOP_STREAM			6868927612724466255
-#define ORPHEUS_STREAM_PACKET			6868927612724466256
+
+/** Constants used within the Oprheus network protocol (look at Client/orpheus_config.h)*/
+/// Package starter for approving incoming client connections (Server --> CLient)
+#define ORPHEUS_CONNECTION_APPROVED 6868927612724466250
+/// Package starter for refusing incoming client connections (Server --> Client)
+#define ORPHEUS_CONNECTION_REFUSED 6868927612724466251
+/// Package starter to determine the client's role as a GUEST within a Oprheus session (Client --> Server)
+#define ORPHEUS_CONNECTION_TYPE_GUEST 6868927612724466252
+/// Package starter to determine the client's role as a HOST within a Oprheus session (Client --> Server)
+#define ORPHEUS_CONNECTION_TYPE_HOST 6868927612724466253
+/// Package starter to initiate the audio stream (Server --> Client)
+#define ORPHEUS_START_STREAM 6868927612724466254
+/// Package starter to stop the audio stream (Server --> Client)
+#define ORPHEUS_STOP_STREAM 6868927612724466255
+/// Package starter to mark a packet containing streamed audio data (Client --> Server --> CLient)
+#define ORPHEUS_STREAM_PACKET 6868927612724466256
+
 
 namespace orpheus
 {
@@ -18,7 +36,6 @@ namespace orpheus
 	private:
 		bool _connectedWithHost = false;
 		bool _legitConnection = false;
-
 		ServerConnection* _otherPeer = nullptr;
 
 		void sendMessageCode(juce::int64 code)
@@ -97,6 +114,7 @@ namespace orpheus
 					_otherPeer->sendMessage(message);
 					std::cout << getConnectedHostName() << " : STOP_STREAM" << std::endl;
 				}
+				break;
 			case ORPHEUS_STREAM_PACKET:
 				if (_otherPeer != nullptr)
 				{
