@@ -4,4 +4,4 @@ Orpheus is an audio plug-in based on the JUCE-Framework. Its designed to support
 This application was developed under the terms of a school project, but will get updated in future releases nevertheless.
 
 ### How is Orpheus structured?
-![alt text](https://github.com/chrigervi/Orpheus/AdditionalResources/orpheus-components-graph.png?raw=true)
+![alt text](https://github.com/chrigervi/Orpheus/blob/master/AdditionalResources/orpheus-components-graph.png?raw=true)
