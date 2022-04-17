@@ -1,6 +1,0 @@
-<map id="orpheus::AudioStreamGuestConnection" name="orpheus::AudioStreamGuestConnection">
-<area shape="rect" id="node1" title=" " alt="" coords="101,185,287,227"/>
-<area shape="rect" id="node2" href="$classorpheus_1_1_audio_stream_connection.html" title=" " alt="" coords="86,109,302,136"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,5,196,32"/>
-<area shape="rect" id="node4" href="$classorpheus_1_1_pipe_buffer.html" title=" " alt="" coords="220,5,355,32"/>
-</map>

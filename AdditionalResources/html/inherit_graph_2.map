@@ -1,7 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,70,196,97"/>
-<area shape="rect" id="node2" href="$classorpheus_1_1_audio_stream_connection.html" title=" " alt="" coords="244,45,460,71"/>
-<area shape="rect" id="node5" href="$classorpheus_1_1_server_connection.html" title=" " alt="" coords="263,95,441,122"/>
-<area shape="rect" id="node3" href="$classorpheus_1_1_audio_stream_guest_connection.html" title=" " alt="" coords="508,5,695,47"/>
-<area shape="rect" id="node4" href="$classorpheus_1_1_audio_stream_host_connection.html" title=" " alt="" coords="512,71,691,112"/>
-</map>
