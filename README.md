@@ -13,4 +13,4 @@ The functionality can be split up into three different sections:
 
 ## How to build the application
 
-In order to successfully build Orpheus from the source code, you'll need [Projucer from the JUCE-Project](https://juce.com/discover/projucer). Open the ".jucer"-Files of the Client or Server package with Projucer and select an development environment where to build the project. Projucer will generate an valid project for this environment. 
+In order to successfully build Orpheus from the source code, you'll need [Projucer from the JUCE-Project](https://juce.com/discover/projucer). Open the ".jucer"-File of the Client or Server package with Projucer and select an development environment where you want to build the project. Projucer will generate a valid project for this environment. 
