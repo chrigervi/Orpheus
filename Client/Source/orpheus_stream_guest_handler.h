@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "orpheus_guest_connection.h"
 #include "orpheus_stream_handler.h"
 
 namespace orpheus

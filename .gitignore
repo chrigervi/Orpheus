@@ -3,3 +3,6 @@
 ################################################################################
 
 /Client/Builds
+/Client/JuceLibraryCode
+/Server/Builds/VisualStudio2019
+/Server/JuceLibraryCode

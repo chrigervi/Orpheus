@@ -3,6 +3,8 @@
 #pragma once
 
 #include "orpheus_stream_handler.h"
+#include "orpheus_pipe_buffer.h"
+#include "orpheus_host_connection.h"
 
 namespace orpheus {
 	class AudioStreamHostHandler : public AudioStreamHandler

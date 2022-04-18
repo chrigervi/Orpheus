@@ -2,6 +2,7 @@
 // TODO: Add ScopedLock to maintain thread-security
 
 #include "orpheus_stream_handler.h"
+#include "orpheus_log.h"
 
 orpheus::AudioStreamHandler::~AudioStreamHandler()
 {

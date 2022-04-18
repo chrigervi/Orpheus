@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "orpheus_net.h"
+#include <JuceHeader.h>
 
 namespace orpheus {
 

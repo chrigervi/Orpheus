@@ -1,7 +1,7 @@
 /* Copyright (c) 2021, Christian Hertel */
 
 #include "orpheus_stream_host_handler.h"
-
+#include "orpheus_host_connection.h"
 #include "sandbox.h"
 #include "orpheus_DataTracker.h"
 
