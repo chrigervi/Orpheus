@@ -45,9 +45,21 @@ namespace orpheus
 		* @param sample_rate : new sample rate
 		*/
 		void setSampleRate(float sample_rate);
+
+		/**
+		* Get the sample rate of the network audio stream.
+		*/
 		float getSampleRate();
 
+		/**
+		*	Returns the audio data recieved via the network audio stream.
+		*/
 		const PipeBuffer& getRecievedData();
+
+		/**
+		* Returns the audio data added to the pending audio data packets queue.
+		* NOTE: Audio packets wich were send already are removed from this buffer.
+		*/
 		const PipeBuffer& getAddedData();
 
 		/**

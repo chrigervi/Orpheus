@@ -85,10 +85,12 @@
             file="Source/PluginEditor.cpp"/>
       <FILE id="TvEnH4" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
     </GROUP>
+    <FILE id="gp7fNM" name="orpheus-logo.png" compile="0" resource="1"
+          file="../AdditionalResources/orpheus-logo.png"/>
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
   <EXPORTFORMATS>
-    <VS2019 targetFolder="Builds/VisualStudio2019">
+    <VS2019 targetFolder="Builds/VisualStudio2019" smallIcon="gp7fNM" bigIcon="gp7fNM">
       <CONFIGURATIONS>
         <CONFIGURATION isDebug="1" name="Debug" targetName="Orpheus"/>
         <CONFIGURATION isDebug="0" name="Release" targetName="Orpheus"/>
