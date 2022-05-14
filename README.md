@@ -1,5 +1,5 @@
 # Orpheus
-![alt text](https://github.com/chrigervi/Orpheus/blob/master/AdditionalResources/orpheus-logo.svg?raw=true)
+![alt text](https://github.com/chrigervi/Orpheus/blob/master/AdditionalResources/orpheus-logo.png?raw=true)
 
 Orpheus is an audio plug-in based on the JUCE-Framework. Its designed to support artists who want to share their live cooperation over the internet with a broad audience.
 
