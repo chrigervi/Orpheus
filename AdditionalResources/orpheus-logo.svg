@@ -27,15 +27,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="3.3360996"
-     inkscape:cx="189.29291"
-     inkscape:cy="453.82338"
-     inkscape:window-width="1440"
-     inkscape:window-height="890"
-     inkscape:window-x="-6"
-     inkscape:window-y="-6"
+     inkscape:zoom="2.3589787"
+     inkscape:cx="361.38521"
+     inkscape:cy="426.87966"
+     inkscape:window-width="1920"
+     inkscape:window-height="1010"
+     inkscape:window-x="535"
+     inkscape:window-y="-1086"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer3" />
+     inkscape:current-layer="layer6" />
   <defs
      id="defs2">
     <linearGradient
@@ -214,201 +214,108 @@
   </defs>
   <g
      inkscape:groupmode="layer"
-     id="layer3"
-     inkscape:label="Ebene 3"
+     id="layer6"
+     inkscape:label="Ebene 5 Kopie 2"
      style="display:inline">
-    <rect
-       style="display:inline;opacity:0.966825;fill:#e3dbdb;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       id="rect47686"
-       width="40"
-       height="40.000008"
-       x="31.005093"
-       y="101.03183"
-       inkscape:export-filename="C:\Users\chris\dev\Orpheus\AdditionalResources\orpheus-logo.png"
-       inkscape:export-xdpi="650.23993"
-       inkscape:export-ydpi="650.23993" />
+    <path
+       style="opacity:1;fill:#dedeff;fill-opacity:1;stroke-width:0.264583"
+       id="path91564"
+       d="m 117.73195,117.36882 c 0.77878,-0.16391 1.5367,-0.41064 2.29529,-0.6486 0.92531,-0.31326 1.85286,-0.65396 2.70533,-1.13773 3.50918,-1.99143 2.54793,-1.36038 4.33616,-2.58298 1.56307,-1.11042 2.97615,-2.41296 4.46972,-3.61245 0.67068,-0.50767 0.91996,-0.72064 1.63601,-1.16539 0.28544,-0.17729 1.16021,-0.67832 0.87399,-0.50229 -0.65657,0.40378 -1.35006,0.74906 -1.98525,1.1857 -0.23644,0.16254 0.51715,-0.2494 0.78238,-0.35881 0.27494,-0.11343 0.55797,-0.20615 0.83695,-0.30922 1.1401,-0.35496 2.32648,-0.55196 3.51988,-0.59295 0.64044,-0.022 1.06905,0.0124 1.70636,0.044 1.40233,0.1178 2.80663,0.37752 4.12191,0.89123 0.26965,0.10531 0.52977,0.23355 0.79466,0.35033 1.87123,0.84971 3.38155,2.25174 4.84436,3.66035 1.03453,1.00336 2.10016,2.02682 3.45168,2.59104 0.76668,0.32006 1.55887,0.4907 2.35961,0.69412 1.32847,0.174 2.6764,0.36215 4.01302,0.12196 1.29964,-0.23355 2.13336,-0.60805 3.36355,-1.06696 0,0 2.15418,-1.68684 2.15418,-1.68684 v 0 c -1.25012,0.47505 -1.7987,0.75945 -3.10627,0.97312 -1.27571,0.20846 -2.58532,0.0843 -3.84996,-0.11922 -1.00783,-0.2357 -1.30459,-0.25449 -2.25079,-0.67462 -1.30935,-0.58136 -2.39438,-1.52542 -3.42159,-2.50228 -1.1594,-1.11832 -0.45923,-0.44552 -1.62303,-1.55785 -0.26117,-0.24963 -0.51094,-0.51175 -0.78327,-0.74916 -0.7126,-0.62124 -1.52125,-1.10578 -2.35407,-1.54602 -0.34893,-0.14919 -1.31515,-0.56844 -1.66888,-0.69478 -1.06005,-0.37862 -2.18358,-0.55696 -3.3004,-0.65758 -0.88572,-0.0452 -1.77784,-0.0896 -2.66401,-0.0167 -0.88575,0.0729 -1.80699,0.24153 -2.66287,0.47822 -0.28312,0.0939 -0.57123,0.17391 -0.84935,0.28173 -1.42071,0.55081 -3.72885,2.00565 -4.47623,2.43393 -0.88301,0.50601 -1.72069,1.08073 -2.51213,1.72101 -1.49725,1.2238 -2.94022,2.5218 -4.54493,3.60708 -1.23067,0.78233 -1.80544,1.1306 1.46696,-0.78827 0.21726,-0.1274 -0.44025,0.24514 -0.66598,0.35685 -0.41687,0.2063 -0.86454,0.38951 -1.30158,0.5485 -0.19382,0.0705 -0.39102,0.13134 -0.58654,0.19702 -0.71417,0.20873 -0.3368,0.10537 -0.99904,0.27435 -0.27803,0.071 -0.5656,0.15353 -0.85135,0.1905 -0.0413,0.005 -0.0833,8e-4 -0.12497,10e-4 0,0 -3.14951,2.3687 -3.14951,2.3687 z"
+       inkscape:export-filename="C:\Users\chris\dev\Orpheus\AdditionalResources\path91564.png"
+       inkscape:export-xdpi="1200"
+       inkscape:export-ydpi="1200" />
+    <path
+       style="opacity:1;fill:#b2b2ff;fill-opacity:1;stroke-width:0.264583"
+       id="path91568"
+       d="m 122.26295,104.53189 c 0.0506,-0.0441 0.0965,-0.0942 0.15164,-0.13237 0.0976,-0.0675 0.4075,-0.24343 0.30494,-0.18373 -0.83828,0.48803 -1.69305,0.94913 -2.51215,1.46872 -0.24555,0.15576 0.52115,-0.25864 0.78771,-0.37483 0.83127,-0.36232 0.95615,-0.37445 1.84266,-0.65278 1.42715,-0.32919 2.93147,-0.45677 4.37167,-0.11253 1.01624,0.24292 1.2253,0.40761 2.15574,0.86107 1.96663,1.12607 3.35887,2.79824 4.77805,4.51794 0.91886,0.9748 1.76057,2.02299 2.7006,2.97821 0.32953,0.33484 0.67515,0.65356 1.0193,0.97336 0.32499,0.30199 0.64169,0.61445 0.98792,0.89182 0.3555,0.28479 0.74249,0.52789 1.11373,0.79184 0.42407,0.22147 0.82632,0.49098 1.27219,0.6644 2.02133,0.78618 4.61701,0.84941 6.69584,0.27168 0.66861,-0.18582 1.30433,-0.47435 1.95649,-0.71153 2.76312,-1.18236 5.34003,-2.77507 7.7461,-4.56846 1.13383,-0.84512 2.74706,-2.16561 3.84587,-3.05297 0,0 -2.06992,0.83213 -2.06992,0.83213 v 0 c -1.60767,1.30631 -2.21393,1.83597 -3.91323,3.06241 -0.64541,0.46582 -1.32284,0.8862 -1.96784,1.3526 -0.0537,0.0388 0.24699,-0.0946 0.18761,-0.0653 -0.60168,0.29661 -1.21045,0.5786 -1.81567,0.8679 -0.59869,0.21391 -1.18346,0.47178 -1.79608,0.64174 -2.06807,0.57375 -4.37515,0.56728 -6.37644,-0.2619 -0.42509,-0.17613 -0.81049,-0.43585 -1.21574,-0.65378 -0.91922,-0.65624 -1.2697,-0.86538 -2.10664,-1.62678 -1.32094,-1.2017 -2.47568,-2.58395 -3.52692,-4.02268 -0.66918,-0.86897 -1.34743,-1.73264 -2.13855,-2.49707 -0.8334,-0.80528 -1.78113,-1.48204 -2.74777,-2.11552 -0.73913,-0.37756 -1.35595,-0.73751 -2.15956,-0.97024 -1.41953,-0.41111 -2.96305,-0.24834 -4.40021,-0.0484 -0.31328,0.0817 -0.63006,0.15108 -0.93984,0.24523 -2.12672,0.64635 -4.01667,1.87276 -5.87396,3.06858 0,0 3.64246,-1.43876 3.64246,-1.43876 z"
+       inkscape:export-filename="C:\Users\chris\dev\Orpheus\AdditionalResources\path91564.png"
+       inkscape:export-xdpi="1200"
+       inkscape:export-ydpi="1200" />
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="Ebene 2"
-     style="display:inline;opacity:0.14454976">
-    <rect
-       style="fill:#a260d3;fill-opacity:0;fill-rule:nonzero;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       id="rect47570"
-       width="35.554764"
-       height="32.133884"
-       x="29.946754"
-       y="101.561" />
-    <rect
-       style="fill:#a260d3;fill-opacity:0;fill-rule:nonzero;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       id="rect47572"
-       width="8.2437725"
-       height="1.9067211"
-       x="44.695805"
-       y="113.28172" />
-    <rect
-       style="fill:#a260d3;fill-opacity:0;fill-rule:nonzero;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       id="rect47574"
-       width="30.058912"
-       height="19.628021"
-       x="30.731873"
-       y="105.43051" />
-    <rect
-       style="fill:#a260d3;fill-opacity:0;fill-rule:nonzero;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       id="rect47576"
-       width="38.470921"
-       height="25.684668"
-       x="35.66692"
-       y="110.70203" />
-    <rect
-       style="fill:#a260d3;fill-opacity:0;fill-rule:nonzero;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       id="rect47578"
-       width="40"
-       height="40"
-       x="29.946756"
-       y="101.561" />
-    <rect
-       style="fill:#a260d3;fill-opacity:0;fill-rule:nonzero;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       id="rect47582"
-       width="46.882931"
-       height="40"
-       x="30.731873"
-       y="105.4305" />
-    <g
-       id="g164790"
-       transform="translate(-2.3553625,29.547005)"
-       style="fill:#241c1c;fill-opacity:1">
-      <text
-         xml:space="preserve"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.2874px;line-height:0.8;font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:66.4428;display:inline;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.407185;stroke-opacity:1"
-         x="93.158592"
-         y="82.828674"
-         id="text897-8"
-         transform="matrix(0.61401291,0,0,0.8131214,-24.48174,18.36625)"><tspan
-           x="93.158592"
-           y="82.828674"
-           id="tspan165108"><tspan
-             style="font-style:normal;font-size:12.4817px;-inkscape-font-specification:'Franklin Gothic Heavy, Normal';text-align:center;text-anchor:middle"
-             id="tspan165106">RP
-</tspan></tspan><tspan
-           x="93.158592"
-           y="95.858595"
-           id="tspan165112"><tspan
-             style="font-style:normal;font-size:12.4817px;-inkscape-font-specification:'Franklin Gothic Heavy, Normal';text-align:center;text-anchor:middle"
-             id="tspan165110">HE
-</tspan></tspan><tspan
-           x="93.158592"
-           y="108.88852"
-           id="tspan165116"><tspan
-             style="font-style:normal;font-size:12.4817px;-inkscape-font-specification:'Franklin Gothic Heavy, Normal';text-align:center;text-anchor:middle"
-             id="tspan165114">U</tspan></tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.2874px;line-height:0.8;font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:66.4428;display:inline;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.407185;stroke-opacity:1"
+     id="g24236"
+     inkscape:label="Ebene 5 Kopie"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.2874px;line-height:0.8;font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:66.4428;display:inline;fill:#250d70;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.407185;stroke-opacity:1"
+       x="53.854649"
+       y="82.828674"
+       id="text24234"
+       transform="matrix(1.2482876,0,0,1.3744415,43.183578,2.7464716)"
+       inkscape:export-filename="C:\Users\chris\dev\Orpheus\AdditionalResources\path91564.png"
+       inkscape:export-xdpi="1200"
+       inkscape:export-ydpi="1200"><tspan
          x="53.854649"
          y="82.828674"
-         id="text136787-0-2"
-         transform="matrix(0.96143516,0,0,1.4746772,-15.904384,-21.595526)"><tspan
-           x="53.854649"
-           y="82.828674"
-           id="tspan165118">O</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.2874px;line-height:0.8;font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:66.4428;display:inline;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.407185;stroke-opacity:1"
-         x="53.854649"
-         y="82.828674"
-         id="text141653-1"
-         transform="matrix(0.9983044,0,0,1.4546301,6.4706568,-19.626853)"><tspan
-           x="53.854649"
-           y="82.828674"
-           id="tspan165120">S</tspan></text>
-    </g>
+         id="tspan134965">O</tspan></text>
   </g>
   <g
-     inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
-     id="layer1"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     id="g46901"
+     inkscape:label="Ebene 5 Kopie 1"
+     style="display:inline;opacity:1">
     <text
        xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.2874px;line-height:0.8;font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:66.4428;fill:#5d60a2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.407185;stroke-opacity:1"
-       x="93.158592"
-       y="82.828674"
-       id="text897"
-       transform="matrix(0.61401291,0,0,0.8131214,-26.719692,46.715552)"><tspan
-         x="93.158592"
-         y="82.828674"
-         id="tspan165124"><tspan
-           style="font-style:normal;font-size:12.4817px;-inkscape-font-specification:'Franklin Gothic Heavy, Normal';text-align:center;text-anchor:middle"
-           id="tspan165122">RP
-</tspan></tspan><tspan
-         x="93.158592"
-         y="95.858595"
-         id="tspan165128"><tspan
-           style="font-style:normal;font-size:12.4817px;-inkscape-font-specification:'Franklin Gothic Heavy, Normal';text-align:center;text-anchor:middle"
-           id="tspan165126">HE
-</tspan></tspan><tspan
-         x="93.158592"
-         y="108.88852"
-         id="tspan165132"><tspan
-           style="font-style:normal;font-size:12.4817px;-inkscape-font-specification:'Franklin Gothic Heavy, Normal';text-align:center;text-anchor:middle"
-           id="tspan165130">U</tspan></tspan></text>
-    <rect
-       style="fill:#a260a2;fill-opacity:0;fill-rule:nonzero;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       id="rect47536"
-       width="11.499831"
-       height="0.55516428"
-       x="62.574944"
-       y="119.99479" />
-    <rect
-       style="fill:#a260d3;fill-opacity:0;fill-rule:nonzero;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       id="rect47538"
-       width="11.552492"
-       height="1.1216012"
-       x="44.695805"
-       y="113.28172" />
-    <rect
-       style="fill:#a260d3;fill-opacity:0;fill-rule:nonzero;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       id="rect47540"
-       width="5.439764"
-       height="0.33648485"
-       x="50.808533"
-       y="114.06684" />
-    <rect
-       style="fill:#a260d3;fill-opacity:0;fill-rule:nonzero;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       id="rect47542"
-       width="8.8606501"
-       height="0.61688066"
-       x="58.996223"
-       y="134.19958" />
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.2874px;line-height:0.8;font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:66.4428;fill:#5d60a2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.407185;stroke-opacity:1"
-       x="61.741035"
-       y="82.828674"
-       id="text136787"
-       transform="matrix(0.61401291,0,0,0.8131214,13.209311,46.715552)" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.2874px;line-height:0.8;font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:66.4428;display:inline;fill:#5d60a2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.407185;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.2874px;line-height:0.8;font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:77.5833;display:inline;fill:#000080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.407185;stroke-opacity:1"
        x="53.854649"
        y="82.828674"
-       id="text136787-0"
-       transform="matrix(0.96143516,0,0,1.4746772,-18.142336,6.7537762)"><tspan
+       id="text46899"
+       transform="matrix(1.1390449,0,0,1.2541586,49.05738,11.937507)"
+       inkscape:export-filename="C:\Users\chris\dev\Orpheus\AdditionalResources\path91564.png"
+       inkscape:export-xdpi="1200"
+       inkscape:export-ydpi="1200"><tspan
          x="53.854649"
          y="82.828674"
-         id="tspan165134">O</tspan></text>
+         id="tspan134969">O<tspan
+   style="font-style:italic;font-size:9.44506px;-inkscape-font-specification:'Franklin Gothic Heavy,  Italic'"
+   id="tspan134967">RPHEUS</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Ebene 5"
+     style="display:inline">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.2874px;line-height:0.8;font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:66.4428;display:inline;fill:#5d60a2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.407185;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.2874px;line-height:0.8;font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:66.4428;display:inline;fill:#4645a3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.407185;stroke-opacity:1"
        x="53.854649"
        y="82.828674"
-       id="text141653"
-       transform="matrix(0.9983044,0,0,1.4546301,4.2327048,8.7224491)"><tspan
+       id="text12428"
+       transform="matrix(1.0171216,0,0,1.1199136,55.616414,22.401531)"
+       inkscape:export-filename="C:\Users\chris\dev\Orpheus\AdditionalResources\path91564.png"
+       inkscape:export-xdpi="1200"
+       inkscape:export-ydpi="1200"><tspan
          x="53.854649"
          y="82.828674"
-         id="tspan165136">S</tspan></text>
+         id="tspan134971">O</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Ebene 4"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.2874px;line-height:0.8;font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:66.4428;display:inline;opacity:1;fill:#dedeff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.407185;stroke-opacity:1"
+       x="53.854649"
+       y="82.828674"
+       id="text141653-2-0"
+       transform="matrix(0.89636892,0,0,1.0104962,62.164546,30.898692)"
+       inkscape:export-filename="C:\Users\chris\dev\Orpheus\AdditionalResources\path91564.png"
+       inkscape:export-xdpi="1200"
+       inkscape:export-ydpi="1200"><tspan
+         x="53.854649"
+         y="82.828674"
+         id="tspan134973">O</tspan></text>
+    <path
+       id="path134064"
+       style="opacity:1;fill:#b2b2ff;fill-opacity:1;stroke-width:0.999999"
+       transform="scale(0.26458333)"
+       d="m 462.41211,394.49023 -0.59766,0.23633 c -0.01,0.0624 -0.0171,0.12514 -0.0273,0.1875 0.20513,-0.14496 0.4133,-0.28732 0.625,-0.42383 z m -20.65039,16.17579 c -0.87032,0.84878 -1.76347,1.67295 -2.71484,2.43164 -0.19578,0.14664 -0.38769,0.29904 -0.5879,0.43945 -0.0827,0.0579 -0.16791,0.11206 -0.25195,0.16797 -0.0103,0.0126 -0.0204,0.0248 -0.0293,0.0273 -0.004,0.001 -0.008,0.003 -0.0117,0.004 0,0 -0.002,0.002 -0.002,0.002 -0.003,0.002 -0.007,0.003 -0.01,0.006 -0.002,0.002 -0.003,0.005 -0.006,0.008 0.0393,-1.2e-4 0.007,0.0175 -0.0274,0.0312 0,0 -0.002,0.002 -0.002,0.002 -0.006,0.009 -0.0163,0.015 -0.0332,0.0215 0,0 -0.002,0.002 -0.002,0.002 -0.002,6.6e-4 -0.004,0.001 -0.006,0.002 0,0 -0.002,0.002 -0.002,0.002 -0.002,0.001 -0.004,0.001 -0.006,0.002 0,0 -0.002,0.002 -0.002,0.002 -0.001,6.2e-4 -0.003,0.001 -0.004,0.002 -0.001,0.001 -0.002,0.004 -0.006,0.008 -0.007,0.007 -0.0213,0.0217 -0.0293,0.0254 0,0 -0.002,0.002 -0.002,0.002 -0.004,0.005 -0.009,0.0107 -0.0137,0.0156 0.11042,-0.0643 0.22386,-0.13028 0.32617,-0.18945 l -4.3457,3.43359 c 0.71025,-0.31748 1.44235,-0.58475 2.14258,-0.92578 1.92985,-0.97525 3.85467,-1.99483 5.70703,-3.125 4e-5,-10e-4 -5e-5,-0.003 0,-0.004 1.9e-4,-0.0367 0.005,-0.0716 0.004,-0.10937 0,-0.0495 -0.006,-0.0993 -0.008,-0.14844 -6.8e-4,-0.0246 0.003,-0.0478 0.002,-0.0742 -10e-4,-0.0727 -7.7e-4,-0.0931 -0.002,-0.0976 l -0.002,-0.002 c 1.4e-4,-0.005 8e-4,-0.0142 0.002,-0.041 -0.004,-0.0707 -0.006,-0.072 -0.006,-0.0684 7e-4,-0.004 0.003,-0.0134 0.004,-0.0391 4.9e-4,-0.0219 -0.001,-0.0437 0,-0.0664 0,-0.0136 0.007,-0.0239 0.008,-0.0391 0.003,-0.0461 -0.002,-0.0926 0.002,-0.13867 -0.008,-0.0771 -0.0217,-0.15337 -0.0293,-0.23047 -8e-5,-0.001 0.004,10e-4 0.004,0 0.002,-0.008 8e-4,-0.0159 0.002,-0.0234 0.004,-0.0113 0.005,-0.0219 0.008,-0.0332 -0.004,-0.0752 -0.004,-0.1494 -0.0117,-0.22461 -0.0142,-0.11523 -0.0203,-0.15294 -0.0234,-0.16211 3.2e-4,-0.005 -2.3e-4,-0.0102 0,-0.0215 9.6e-4,-0.062 -0.004,-0.0324 0.004,-0.0664 3.8e-4,-0.0113 5.8e-4,-0.018 0.002,-0.0293 0.004,-0.0113 0.008,-0.0199 0.008,-0.0312 0,-0.0272 -0.01,-0.15889 -0.0117,-0.17773 -0.008,-0.0454 -0.0162,-0.089 -0.0195,-0.13477 0,-0.0136 0.002,-0.0259 0.004,-0.041 -3e-4,-0.0196 3.1e-4,-0.0338 0,-0.0527 0.004,-0.0113 0.0117,-0.0198 0.0117,-0.0273 8.3e-4,-0.0242 -0.002,-0.0496 -0.004,-0.0723 -0.006,-0.10583 -0.01,-0.0969 -0.0117,-0.0937 -0.002,-0.006 -0.008,-0.0315 -0.0176,-0.12891 -6.2e-4,-0.006 10e-6,-0.0115 0,-0.0176 z m -3.71094,3.16015 c 0,-0.004 -0.006,0.005 -0.008,0.008 -0.001,0.002 -0.002,0.004 -0.004,0.006 0.001,-8.7e-4 0.003,-0.001 0.004,-0.002 0.004,-0.004 0.005,-0.008 0.008,-0.0117 z m -0.39648,0.2461 c -0.002,9.8e-4 -0.002,0.003 -0.004,0.004 l -0.008,0.008 c 0.005,-0.003 0.009,-0.005 0.0137,-0.008 -2.8e-4,-0.001 -0.002,-0.003 -0.002,-0.004 z"
+       inkscape:export-filename="C:\Users\chris\dev\Orpheus\AdditionalResources\path91564.png"
+       inkscape:export-xdpi="1200"
+       inkscape:export-ydpi="1200" />
   </g>
 </svg>
