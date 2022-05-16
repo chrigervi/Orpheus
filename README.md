@@ -15,7 +15,7 @@ The functionality can be split up into three different sections:
   2. The network component - Providing a safe and relient audio-stream
   3. The GUI component - Dealing with the graphical interface of the plugin
 
-![alt text](https://github.com/chrigervi/Orpheus/blob/master/AdditionalResources/orpheus-components-graph.jpg?raw=true | width=100)
+![alt text](https://github.com/chrigervi/Orpheus/blob/master/AdditionalResources/orpheus-components-graph.jpg?raw=true =250x250)
 
 ### How to build the application by yourself
 
