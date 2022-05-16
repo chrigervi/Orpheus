@@ -16,6 +16,7 @@ The functionality can be split up into three different sections:
   3. The GUI component - Dealing with the graphical interface of the plugin
 
 ![alt text](https://github.com/chrigervi/Orpheus/blob/master/AdditionalResources/orpheus-components-graph.jpg?raw=true =250x250)
+<img src="https://github.com/chrigervi/Orpheus/blob/master/AdditionalResources/orpheus-components-graph.jpg" width="300">
 
 ### How to build the application by yourself
 
